@@ -1,6 +1,6 @@
 const request = require('request');
 
-const crypto = require('crypto');
+const crypto = require('crypto-browserify');
 
 const BASE_URL_GATEWAY_TEST = 'https://stage-secure-gateway.hipay-tpp.com/rest/v1';
 const BASE_URL_GATEWAY_PROD = 'https://secure-gateway.hipay-tpp.com/rest/v1'
